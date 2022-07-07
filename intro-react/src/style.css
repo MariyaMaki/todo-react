@@ -1,0 +1,93 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 125px auto;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  border: solid #eeaeca;
+  background-color: #eeaeca;
+  box-shadow: 1px 1px 15px 5px #ea89b3;
+  transition: 0.5s;
+}
+
+.App:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  color: #94bbe9;
+  text-shadow: 1px 1px 3px black;
+  margin: 0px;
+  margin-bottom: 20px;
+  font-size: xx-large;
+}
+
+.addToDo {
+  border-radius: 5px;
+  border: none;
+  color: #94bbe9;
+  font-size: large;
+  height: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.add_btn {
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: medium;
+  height: 40px;
+  color: #94bbe9;
+  background-color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.add_btn:hover {
+  transform: scale(1.1);
+}
+
+.clear_btn {
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: medium;
+  height: 40px;
+  color: #94bbe9;
+  background-color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.clear_btn:hover {
+  transform: scale(1.1);
+}
+
+.list {
+  color: #94bbe9;
+  text-shadow: 1px 1px 3px black;
+  font-size: large;
+  margin-top: 25px;
+}
+
+.leftToDo {
+  color: #94bbe9;
+  text-shadow: 1px 1px 3px black;
+  margin-top: 25px;
+  font-size: x-large;
+}
